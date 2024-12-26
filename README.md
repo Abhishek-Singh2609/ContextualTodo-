@@ -41,18 +41,18 @@ Follow these steps to run the app locally:
    ```bash
    git clone https://github.com/yourusername/contextualtodo.git
    cd contextualtodo
-   
+
 
 # Usage
-**Launch the app**.
-**Add tasks in the input field and click "Add Task."**
-**View your list of todos and remove any completed or unnecessary tasks.**
-**Enjoy the seamless experience of task management with ContextualTodo!**
+1.Launch the app.
+2.Add tasks in the input field and click "Add Task."
+3.View your list of todos and remove any completed or unnecessary tasks.
+4.Enjoy the seamless experience of task management with ContextualTodo!
 
 # Project Structure
 ***Here's an overview of the project directory:***
 
-
+```plaintext
 ContextualTodo/
 ├── public/                 # Static files
 ├── src/                    
