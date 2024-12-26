@@ -41,8 +41,9 @@ Follow these steps to run the app locally:
    ```bash
    git clone https://github.com/yourusername/contextualtodo.git
    cd contextualtodo
+   
 
-Usage
+# Usage
 **Launch the app**.
 **Add tasks in the input field and click "Add Task."**
 **View your list of todos and remove any completed or unnecessary tasks.**
@@ -51,18 +52,28 @@ Usage
 # Project Structure
 ***Here's an overview of the project directory:***
 
+
 ContextualTodo/
 ├── public/                 # Static files
 ├── src/                    
+│   ├── assets/             # Assets like images, fonts, etc.
 │   ├── components/         # Reusable UI components
-│   ├── context/            # React Context for state management
-│   ├── hooks/              # Custom hooks (if any)
-│   ├── utils/              # Utility functions (if any)
-│   ├── App.js              # Main app component
-│   ├── index.js            # Entry point
+│   │   ├── TodoForm.jsx    # Component for adding todos
+│   │   ├── TodoItem.jsx    # Component for displaying a single todo item
+│   │   └── index.js        # Entry point for components
+│   ├── contexts/           # React Context for state management
+│   │   ├── TodoContext.js  # Context for todos
+│   │   └── index.js        # Entry point for contexts
+│   ├── App.jsx             # Main app component
 │   ├── index.css           # Global styles
+│   └── main.jsx            # Entry point
 ├── .gitignore              # Files to be ignored by Git
+├── eslint.config.js        # ESLint configuration
+├── index.html              # HTML template
 ├── package.json            # Project metadata and dependencies
+├── postcss.config.js       # PostCSS configuration
 ├── README.md               # Project documentation
+├── tailwind.config.js      # Tailwind CSS configuration
+└── vite.config.js          # Vite configuration
 
 
